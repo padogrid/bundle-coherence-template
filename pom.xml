@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.apache.geode.addon</groupId>
+	<groupId>org.coherence.addon</groupId>
         <!-- @template: Enter your bundle name here -->
         <artifactId>bundle-geode-template</artifactId>
 	<packaging>pom</packaging>
@@ -18,16 +18,16 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<geode.version>1.11.0</geode.version>
+		<coherence.version>14.1.1-0-0</coherence.version>
 		<skipTests>true</skipTests>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.geode</groupId>
-			<artifactId>geode-core</artifactId>
-			<version>${geode.version}</version>
-		</dependency>
+			<groupId>com.oracle.coherence</groupId>
+			<artifactId>coherence</artifactId>
+			<version>${coherence.version}</version>
+		</dependency
 	</dependencies>
 
 	<build>
