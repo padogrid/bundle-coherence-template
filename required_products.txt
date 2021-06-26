@@ -1,0 +1,23 @@
+#
+# PadoGrid bundle environment. This bundle requires the product versions listed below.
+# Note that the required product versions listed in the file override the product
+# versions that make up the bundle name.
+#
+# Specify ony the version number parts that are required. For example, if the bundle
+# can be run on all versions of Coherence 14.x.x, then specify 14 only. If it applies to
+# 14.1.x, then 14.1. If the bundle applies to multiple specific versions, then list them
+# comma-separated. For example, the following applies to Coherence 12.2.1.4 and 14.1.x
+#
+# coherence=12.2.1.4,14.1.x
+#
+
+coherence=14
+#hazelcast=
+#hazelcast-enterprise=
+#geode=
+#gemfire=
+#jet=
+#jet-enterprise=
+#snappydata=
+#spark=
+#pado=
