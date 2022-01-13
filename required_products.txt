@@ -10,14 +10,18 @@
 #
 # coherence=12.2.1.4,14.1.x
 #
+# If the bunndle does not require a product, then set none=1.
+#
 
 coherence=14
+#gemfire=
+#geode=
+#hadoop=
 #hazelcast=
 #hazelcast-enterprise=
-#geode=
-#gemfire=
 #jet=
 #jet-enterprise=
-#snappydata=
-#spark=
+#kafka=
+#none=1
 #pado=
+#spark=
