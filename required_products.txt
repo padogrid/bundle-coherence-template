@@ -10,7 +10,8 @@
 #
 # coherence=12.2.1.4,14.1.x
 #
-# If the bunndle does not require a product, then set none=1.
+# To deemphasize products, i.e., product not required, requires multiple products, etc.,
+# then set none=1.
 #
 
 coherence=14
@@ -23,5 +24,7 @@ coherence=14
 #jet-enterprise=
 #kafka=
 #none=1
+#pado=
+#redis=
 #pado=
 #spark=
